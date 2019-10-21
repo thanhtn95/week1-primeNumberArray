@@ -16,8 +16,8 @@ public class primeList {
             beginNumber++;
         }
         System.out.println("Array of Prime Numbers that lower than "+input+" : ");
-        for(int j =0; j<primeList.size();j++){
-            System.out.println(primeList.get(j));
+        for (Integer integer : primeList) {
+            System.out.println(integer);
         }
     }
 
